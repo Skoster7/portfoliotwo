@@ -1,0 +1,657 @@
+body {
+  background: white;
+  font-size: 16px;
+}
+
+.fullheight {
+  height: 100vh;
+  background-color: teal;
+}
+
+.plusfullheight {
+  height: 150vh;
+  background-color: white;
+}
+
+/******************************
+NAVIGATION
+******************************/
+
+header {
+  margin-right: 10px;
+  float: right;
+}
+
+.circle {
+  display: inline-block;
+  background-color: rgba(6,4,5,1);
+  height: 17px;
+  width: 17px;
+  color: white;
+  transition: background-color .3s linear;
+  margin: 10px 0 0 10px;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  background-color: pink;
+}
+
+.circle p {
+  font-family: anton;
+  color: white;
+  transition: color .5s linear;
+  font-size: 12px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+}
+
+.circle p:hover {
+  color: black;
+}
+
+.corcle a{
+  text-decoration: none;
+}
+
+.socialcircles {
+  width: 17px;
+  height: 17px;
+  font-size: 12px;
+  background-color: black;
+  transition: background-color .5s linear;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  padding-left: 4px;
+  padding-top: 3px;
+  border-radius: 50%;
+}
+
+.socialcircles:hover {
+  background-color: pink;
+}
+
+.fa-twitter {
+  padding-left: 3.5px;
+}
+
+.fa-facebook {
+  padding-left: 5px;
+}
+
+.fa-facebook:hover, .fa-twitter:hover {
+  color: black;
+}
+
+.social {
+  margin-left: 135px;
+  margin-top: -25px;
+}
+
+/******************************
+HEADER PAGE
+******************************/
+
+#squarelogo {
+  width: 125px;
+  height: 75px;
+  background: pink;
+  margin-left: 100px;
+  font-family: lato;
+  font-size: 1.7em;
+  line-height: 23px;
+  opacity: 0;
+  animation: slidedown 0.5s linear 2s forwards;
+}
+
+
+.fa:not(.fa-music,.fa-chevron-circle-down){
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  float: left;
+  margin-right: 13px;
+  text-align: center;
+}
+
+.fa-music {
+  float: right;
+}
+
+.notes {
+  margin-right: 580px;
+  color: pink;
+}
+
+.container {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+h1:not(.who) {
+  text-align: center;
+  color: #FFD259;
+  font-family: anton;
+  font-size: 4rem;
+  width: auto;
+  animation: bulge .3s linear 1s,fadeIn 1s linear;
+  line-height:1.5em;
+  margin-top: 0px;
+}
+
+.fullstop {
+  color: pink;
+}
+
+.music, .madein, .sheff {
+  background-color: black;
+  padding: 7px;
+}
+
+.fa-chevron-circle-down {
+  color: pink;
+  font-size: 35px;
+  animation: fadeintwo 1.3s ease-in infinite 3.5s;
+  margin: 10% 0 0 49%;
+  opacity: 0;
+  font-size: 25px;
+}
+
+/******************************
+PAGE 2
+******************************/
+h2 {
+  font-family: lato;
+  color; black;
+  font-size: 40px;
+  margin-left: 155px;
+  margin-top: 200px;
+  border-left: 2px solid tomato;
+  padding-left: 10px;
+}
+
+.col-md-4 {
+  margin-left: 59%;
+  width: 333px;
+  margin-top: -525px;
+  height: 545px;
+  overflow: scroll;
+}
+
+#redblock {
+  width: 2.5px;
+  height: 13px;
+  background: tomato;
+  float: right;
+  margin-right: 519px;
+  position: relative;
+  margin-top: -518px;
+}
+
+#para::-webkit-scrollbar {
+  display: none;
+}
+
+.pp {
+  text-align: justify;
+  color: black;
+  font-family: lato;
+  font-size: 17px;
+}
+
+.slick {
+  height: 400px;
+  width: 400px;
+  margin-left: 12%;
+  margin-top: 5%;
+  z-index: 1;
+}
+
+
+/******************************
+PAGE 3
+******************************/
+
+.breakpage {
+  height: 100vh;
+  margin-top: 100px;
+  margin-bottom: -40px;
+}
+
+h4 {
+  background: #ffd259;
+  width: 120px;
+  font-family: amatic sc;
+  font-size: 2em;
+  position: absolute;
+  z-index: 100;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+.vidcontainer {
+  height: 550px;
+  width: 1285px;
+  background: white;
+  max-height: 650px;
+  overflow: hidden;
+}
+
+.overlay {
+  height: 550px;
+  width: 1300px;
+  background: rgba(0,0,0, .0);
+  position: absolute;
+  z-index: 90;
+  margin-top: -550px;
+}
+
+h5 {
+  font-family: amatic sc;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 40px;
+  color: #ffd259;
+  opacity: 0;
+}
+
+.overlay:hover {
+  background: rgba(0, 0, 0, .9);
+  transition: 1s;
+}
+
+h5:hover {
+  opacity: 1;
+  transition: 4s;
+}
+
+/******************************
+PAGE 4
+******************************/
+
+.club {
+  background-image: url("../images/clubtwo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#fullheightoverlay {
+  height: 680px;
+  width: 1290px;
+  background: rgba(0,0,0, .8);
+}
+
+.who {
+  color: black;
+  text-align: center;
+  background: #FFD259;
+  display: inline-block;
+  margin-left: 460px;
+  margin-top: 230px;
+  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: lato;
+  font-size: 90px;
+}
+
+/******************************
+PAGE 4
+******************************/
+
+.gallery {
+  display: inline;
+}
+
+#arcticmonkeys {
+  margin-top: 3px;
+  z-index: 50;
+}
+
+#quotebox {
+  position: absolute;
+  margin-left: 3px;
+}
+
+#defleppard {
+  margin-left: 306px;
+  position: absolute;
+  z-index: 50;
+}
+
+#sherlocks {
+  position: absolute;
+  margin-top: 304px;
+  margin-left: 3px;
+  z-index: 50;
+}
+
+#bmth {
+  position: absolute;
+  margin-left: 306px;
+  margin-top: 353px;
+  z-index: 50;
+}
+
+#quoteboxtwo {
+  margin-left: -549px;
+  position: absolute;
+  margin-top: 455px;
+  z-index: 50;
+}
+
+#pulp {
+  position: absolute;
+  margin-top: 608px;
+  margin-left: 3px;
+  z-index: 50;
+}
+
+#hlg {
+  margin-top: 760px;
+  margin-left: -550px;
+  position: absolute;
+}
+
+#volt {
+  position: absolute;
+  margin-top: 760px;
+  margin-left: -270px;
+  z-index: 50;
+}
+
+#abc {
+  position: absolute;
+  margin-top: 1012px;
+  margin-left: 2px;
+  z-index: 50;
+}
+
+#quoteboxthree {
+  position: absolute;
+  margin-top: 1012px;
+  margin-left: 385px;
+  z-index: 50;
+}
+
+#heaven {
+  position: absolute;
+  margin-top: 1043px;
+  margin-left: -550px;
+  z-index: 50;
+}
+
+/******************************
+IMAGE GALLERY OVERLAYS
+******************************/
+
+#amoverlay {
+  width: 547px;
+  height: 450px;
+  background-color: rgba(0,0,0,.0);
+  position: absolute;
+  z-index: 60;
+  margin-top: -450px;
+}
+
+#amoverlay:hover {
+  background-color: rgba(0,0,0,.9);
+  transition: .5s;
+}
+
+#defleppardoverlay {
+  width: 427px;
+  height: 350px;
+  background-color: rgba(0,0,0,.0);
+  position: absolute;
+  z-index: 60;
+  margin-top: -350px;
+}
+
+#defleppardoverlay:hover {
+  background-color: rgba(0,0,0,.9);
+  transition: .5s;
+}
+
+#sherlocksoverlay {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0,0,0,,0);
+  position: absolute;
+  z-index: 60;
+  margin-top: -300px;
+}
+
+#sherlocksoverlay:hover {
+  background-color: rgba(0,0,0,.9);
+  transition: .5s;
+}
+
+#bmthoverlay {
+  width: 427px;
+  height: 251px;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  z-index: 60;
+  margin-top: -250px;
+}
+
+#bmthoverlay:hover {
+  background-color: rgba(0,0,0,.9);
+  transition: .5s;
+}
+
+#pulpoverlay {
+  height: 400px;
+  width: 730px;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  z-index: 60;
+  margin-top: -400px;
+}
+
+#pulpoverlay:hover {
+  background-color: rgba(0,0,0,.9);
+  transition: .5s;
+}
+
+#hlgoverlay {
+  width: 275px;
+  height: 280px;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  z-index: 60;
+  margin-top: -280px;
+}
+
+#hlgoverlay:hover {
+  background-color: rgba(0,0,0,.9);
+  transition: .5s;
+}
+
+#voltoverlay {
+  width: 265px;
+  height: 280px;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  z-index: 60;
+  margin-top: -279px;
+}
+
+#voltoverlay:hover {
+  background-color: rgba(0,0,0,.9);
+  transition: .5s;
+}
+
+#abcoverlay {
+  width: 377px;
+  height: 380px;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  z-index: 60;
+  margin-top: -379px;
+  margin-right: 2px;
+}
+
+#abcoverlay:hover {
+  background-color: rgba(0,0,0,.9);
+  transition: .5s;
+}
+
+#heavenoverlay {
+  width: 546px;
+  height: 350px;
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  z-index: 60;
+  margin-top: -347px;
+}
+
+#heavenoverlay:hover {
+  background-color: rgba(0,0,0,.9);
+  transition: .5s;
+}
+
+/******************************
+OVERLAY  TEXT/BORDERS
+******************************/
+#amborder:hover,
+#defleppardborder:hover,
+#sherlocksborder:hover,
+#bmthborder:hover,
+#pulpborder:hover,
+#hlgborder:hover,
+#voltborder:hover,
+#abcborder:hover,
+#heavenborder:hover {
+  color: rgba(255,210,89,1);
+  border: solid 1px rgba(255,210,89,1);
+  transition: .8s;
+  transition-delay: .2s;
+}
+
+#amborder {
+  font-family: lato;
+  font-size: 14px;
+  color: rgba(255,210,89,.0);
+  text-align: justify;
+  padding: 10px;
+  padding-top: 130px;
+  width: 530px;
+  height: 420px;
+  border: solid 1px rgba(255,210,89,0);
+  margin: 15px 0 0 7px;
+}
+
+#defleppardborder {
+  font-family: lato;
+  font-size: 14px;
+  color: rgba(255,210,89,0);
+  text-align: justify;
+  padding: 10px;
+  padding-top: 70px;
+  width: 400px;
+  height: 320px;
+  border: solid 1px rgba(255,210,89,0);
+  margin: 14px 0 0 13px;
+}
+
+#sherlocksborder {
+  font-family: lato;
+  font-size: 14px;
+  color: rgba(255,210,89,0);
+  text-align: justify;
+  padding: 10px;
+  padding-top: 40px;
+  width: 280px;
+  height: 280px;
+  border: solid 1px rgba(255,210,89,0);
+  margin: 10px 0 0 10px;
+}
+
+#bmthborder {
+  font-family: lato;
+  font-size: 14px;
+  color: rgba(255,210,89,0);
+  text-align: justify;
+  padding: 10px;
+  padding-top: 40px;
+  width: 407px;
+  height: 231px;
+  border: solid 1px rgba(255,210,89,0);
+  margin: 10px 0 0 10px;
+}
+
+#pulpborder {
+  font-family: lato;
+  font-size: 14px;
+  color: rgba(255,210,89,0);
+  text-align: justify;
+  padding: 10px;
+  padding-top: 40px;
+  width: 710px;
+  height: 380px;
+  border: solid 1px rgba(255,210,89,0);
+  margin: 10px 0 0 10px;
+}
+
+#hlgborder {
+  font-family: lato;
+  font-size: 14px;
+  color: rgba(255,210,89,0);
+  text-align: justify;
+  padding: 10px;
+  padding-top: 20px;
+  width: 255px;
+  height: 255px;
+  border: solid 1px rgba(255,210,89,0);
+  margin: 10px 0 0 10px;
+}
+
+#voltborder {
+  font-family: lato;
+  font-size: 14px;
+  color: rgba(255,210,89,0);
+  text-align: justify;
+  padding: 10px;
+  padding-top: 20px;
+  width: 245px;
+  height: 260px;
+  border: solid 1px rgba(255,210,89,0);
+  margin: 10px 0 0 10px;
+}
+
+#abcborder {
+  font-family: lato;
+  font-size: 14px;
+  color: rgba(255,210,89,0);
+  text-align: justify;
+  padding: 10px;
+  padding-top: 70px;
+  width: 360px;
+  height: 360px;
+  border: solid 1px rgba(255,210,89,0);
+  margin: 10px 0 0 10px;
+}
+
+#heavenborder {
+  font-family: lato;
+  font-size: 14px;
+  color: rgba(255,210,89,0);
+  text-align: justify;
+  padding: 10px;
+  padding-top: 90px;
+  width: 524px;
+  height: 328px;
+  border: solid 1px rgba(255,210,89,0);
+  margin: 10px 0 0 10px;
+}
+
+.title {
+  font-family: anton;
+  align-items: center;
+}

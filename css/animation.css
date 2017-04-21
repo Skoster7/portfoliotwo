@@ -1,0 +1,102 @@
+@keyframes blinkme {
+
+50% {opacity: 0};
+}
+
+@keyframes bulge {
+  0% {
+    font-size: 4rem;
+  }
+  50% {
+    font-size: 4.3rem;
+  }
+  100% {
+    font-size: 4rem;
+  }
+}
+
+@keyframes bulgetwo {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.09);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeintwo {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes shimmy {
+  0% {
+    transform: translate(0,0);
+    opacity: 0;
+  }
+  20% {
+    transform: translate(.5vh,-10vh);
+    opacity: 0;
+  }
+  30% {
+    transform: translate(-1vh, -15vh);
+    opacity: .4;
+  }
+  40% {
+    transform: translate(1vh,-20vh);
+    opacity: .4;
+  }
+  50% {
+    transform: translate(-1vh,-25vh);
+    opacity: .8;
+  }
+  60{
+    transform: translate(1vh,-30vh);
+    opacity: .6;
+  }
+  70% {
+    transform: translate(0vh,-35vh);
+    opacity: .3;
+  }
+  80% {
+    transform: translate(2vh,-40vh);
+    opacity: .2;
+  }
+  90% {
+    transform: translate(0vh,-42vh);
+    opacity: .2
+  }
+  100% {
+    transform: translate(1vh,-47vh);
+    opacity: 0;
+  }
+}
+
+@keyframes slidedown {
+  0% {
+    transform: translate(0vh, -10vh);
+  }
+  90% {
+    transform: translate(0vh, 0.3vh)
+  }
+  100% {
+    transform: translate(0vh, 0vh);
+    opacity: 1;
+  }
+}

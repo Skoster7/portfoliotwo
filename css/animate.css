@@ -1,0 +1,59 @@
+/******************************
+PAGE 1 ANIMATIONS
+******************************/
+
+.one {
+  margin-top: 200px;
+  animation: shimmy 3s linear 6s infinite forwards;
+  opacity: 0;
+}
+
+.two {
+  margin-top: 450px;
+  animation: shimmy 3s linear 6.9s infinite forwards;
+  opacity: 0;
+}
+
+.three {
+  margin-top: 250px;
+  margin-right:-50px;
+  animation: shimmy 3s linear 7.9s infinite forwards;
+  opacity: 0;
+}
+
+.four {
+  margin-top: 230px;
+  animation: shimmy 3s linear 8.9s infinite forwards;
+  opacity: 0;
+}
+
+.five {
+  margin-top: 290px;
+  animation: shimmy 3s linear 9.5s infinite forwards;
+  opacity: 0;
+}
+
+.six {
+  margin-top: 220px;
+  margin-right: 100px;
+  animation: shimmy 3s linear 10.9s infinite forwards;
+  opacity: 0;
+}
+
+.seven {
+  margin-top: 310px;
+  animation: shimmy 3s linear 11.5s infinite forwards;
+  opacity: 0;
+}
+
+.eight {
+  margin-top: 380px;
+  margin-left: 60px;
+  animation: shimmy 3s linear 12.9s infinite forwards;
+  opacity: 0;
+}
+
+
+/******************************
+PAGE 2 ANIMATIONS
+******************************/
